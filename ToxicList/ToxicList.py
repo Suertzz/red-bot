@@ -9,5 +9,5 @@ class ToxicList:
     async def toxiclist(self):
         await self.bot.say("Salut bb")
 
-def setup (bot)
+def setup(bot)
     bot.add_cog(ToxicList(bot))
