@@ -26,7 +26,7 @@ class ToxicList:
             return
         if self.is_command(message):
             return
-        else
+        else:
             await.bot.add_reaction(message, ":joy:")
 def setup(bot):
     bot.add_cog(ToxicList(bot))
