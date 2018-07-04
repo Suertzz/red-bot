@@ -5,6 +5,7 @@ class ToxicList:
 
     def __init__(self, bot):
         self.bot = bot
+        message = ctx.message
 
     def is_command(self, msg):
         if callable(self.bot.command_prefix):
