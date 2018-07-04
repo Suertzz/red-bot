@@ -19,8 +19,6 @@ class ToxicList:
     async def msg_listener(self, message):
         if message.author == self.bot.user:
             return
-        if self.is_command(message):
-            return
         else:
             await self.bot.add_reaction(message, joy)
 def setup(bot):
