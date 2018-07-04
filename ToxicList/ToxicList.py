@@ -17,6 +17,7 @@ class ToxicList:
         return False
 
     async def msg_listener(self, message):
+        printf("test2")
         if message.author == self.bot.user:
             print("test")
             return
