@@ -20,6 +20,6 @@ class ToxicList:
         if message.author == self.bot.user:
             return
         else:
-            await self.bot.add_reaction(message, joy)
+            await self.bot.add_reaction(message, "\U0001f602")
 def setup(bot):
     bot.add_cog(ToxicList(bot))
