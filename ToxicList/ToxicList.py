@@ -18,6 +18,7 @@ class ToxicList:
 
     async def msg_listener(self, message):
         if message.author == self.bot.user:
+            print("test")
             return
         else:
             await self.bot.add_reaction(message, "\U0001f602")
