@@ -1,5 +1,8 @@
+import os
 import discord
+import copy
 from discord.ext import commands
+from .utils.dataIO import dataIO
 
 class ToxicList:
 
